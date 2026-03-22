@@ -19,8 +19,7 @@
     "home-layout-large": {
       "type": "FIXED",
       "order": [
-        "0",
-        "1"
+        "0"
       ],
       "content": {
         "0": {
@@ -29,8 +28,8 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "0.0%",
+            "top": "50%",
+            "bottom": "0%",
             "width": "100.0%",
             "height": "100.0%"
           },
@@ -40,28 +39,6 @@
               "right": false,
               "top": true,
               "bottom": false
-            }
-          }
-        },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_73",
-          "bbox": {
-            "left": "3.9%",
-            "right": "83.9%",
-            "top": "0%",
-            "bottom": "89.7%",
-            "width": "12.2%",
-            "height": "5.4%"
-          },
-          "setting": {
-            "autoProps": {
-              "width": "AUTO",
-              "height": "AUTO",
-              "left": false,
-              "right": true,
-              "top": false,
-              "bottom": true
             },
             "vCenter": false
           }
@@ -273,10 +250,57 @@
       }
     },
     "layout_97": {
-      "content": {},
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_73",
+          "bbox": {
+            "left": "4.9%",
+            "right": "71.7%",
+            "top": "0%",
+            "bottom": "83.7%",
+            "width": "23.4%",
+            "height": "6.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_97",
+          "bbox": {
+            "left": "0.0%",
+            "right": "81.4%",
+            "top": "84.7%",
+            "bottom": "4.4%",
+            "width": "18.6%",
+            "height": "10.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
       "type": "FIXED",
       "label": "Map FixedLayout",
-      "order": []
+      "order": [
+        "0",
+        "1"
+      ]
     },
     "layout_98": {
       "content": {
@@ -303,12 +327,6 @@
           "widgetId": "widget_81",
           "bbox": {},
           "setting": {}
-        },
-        "4": {
-          "type": "WIDGET",
-          "widgetId": "widget_95",
-          "bbox": {},
-          "setting": {}
         }
       },
       "type": "FIXED",
@@ -316,7 +334,6 @@
       "order": [
         "2",
         "0",
-        "4",
         "3",
         "1"
       ]
@@ -452,8 +469,7 @@
       "uri": "widgets/common/text/",
       "version": "1.19.0",
       "config": {
-        "text": "<p><span style=\"font-size: 18px;\">Lorem ipsum dolor sit amet</span></p><p><br></p><p><img src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" data-name=\"svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" width=\"145\" style=\"display: block; float: left; margin: 0px 0.9em 0.9em 0px; width: 31.66%;\">Ne debet assentior qui. Zril salutandi comprehensam an qui, nam no semper temporibus dissentiet, eleifend antiopam evertitur at sed. An wisi efficiendi sit.</p><p><br></p><p>Vel ea mentitum dissentiet, partem saperet accumsan vim ex, meliore repudiare consetetur et has.</p><p><br></p><p>Eu nostrum volutpat maluisset has, per ea homero utamur, ius ut wisi nominati. Sumo denique appareat.</p><p><br></p><p>Inermis vituperatoribus et ius. Aeque tritani eu qui, ne pri euripidis, mandamus reprimique te vix. Ei case atqui sonet vim.</p>",
-        "placeholder": "Double click to edit text"
+        "text": "<p><span style=\"font-size: 18px;\">Lorem ipsum dolor sit amet</span></p><p><br></p><p><img src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" data-name=\"svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" width=\"145\" style=\"display: block; float: left; margin: 0px 0.9em 0.9em 0px; width: 31.66%;\">Ne debet assentior qui. Zril salutandi comprehensam an qui, nam no semper temporibus dissentiet, eleifend antiopam evertitur at sed. An wisi efficiendi sit.</p><p><br></p><p>Vel ea mentitum dissentiet, partem saperet accumsan vim ex, meliore repudiare consetetur et has.</p><p><br></p><p>Eu nostrum volutpat maluisset has, per ea homero utamur, ius ut wisi nominati. Sumo denique appareat.</p><p><br></p><p>Inermis vituperatoribus et ius. Aeque tritani eu qui, ne pri euripidis, mandamus reprimique te vix. Ei case atqui sonet vim.</p>"
       },
       "id": "widget_44",
       "label": "Text 5"
@@ -2318,12 +2334,12 @@
         }
       ]
     },
-    "widget_95": {
+    "widget_97": {
       "uri": "widgets/symbology-picker/",
       "version": "1.13.0",
       "label": "Symbology Picker",
       "config": {},
-      "id": "widget_95",
+      "id": "widget_97",
       "useMapWidgetIds": [
         "widget_72"
       ]
@@ -2475,11 +2491,18 @@
     "backgroundColor": "var(--dark-700)"
   },
   "customThemeOptions": {},
-  "publishTimestamp": 1761632029018,
+  "publishTimestamp": 1774138477802,
   "attributes": {
-    "portalUrl": "https://gac2.maps.arcgis.com"
+    "portalUrl": "https://gac2.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "i6DxXQbdjPE80uTe",
+    "express": false,
+    "title": "EXBRMGenerator",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
-  "timestamp": 1774135448105,
+  "timestamp": 1774138475696,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {
